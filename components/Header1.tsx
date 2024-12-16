@@ -8,7 +8,7 @@ import {
     NavigationMenuTrigger,
   } from "@/components/ui/navigation-menu" ; 
   import { FaFacebook, FaTwitter, FaPinterest } from 'react-icons/fa';
-import Menu from "./Menu";
+
   
 
 
@@ -18,14 +18,14 @@ export default function Header1 () {
          <div className="max-md:flex">
           <div className="md:flex justify-center items-center max-md:w-1/2 max-md:pl-5 ">
             <h1 className="font-bold text-[24px] font-h"> 
-               <a href="/">
+               <Link href="/">
                 <span className="text-text">
                     Food
                 </span>
                 <span className="text-white">
                     tuck
                 </span>
-                </a>
+                </Link>
             </h1>
           </div>
           <div className="hidden max-md:block max-md:w-1/2 max-md:pl-80 ">
@@ -95,17 +95,17 @@ export default function Header1 () {
                 </div>
                 <div>
                   
-                      <a href="https://www.facebook.com/" className='p-4'>
+                      <Link href="https://www.facebook.com/" className='p-4'>
                       <FaFacebook size={11} color="#ffffff" />
-                      </a>
+                      </Link>
                 
-                      <a href="https://www.twitter.com/" className='p-4'>
+                      <Link href="https://www.twitter.com/" className='p-4'>
                       <FaTwitter size={11} color="#FF9F0D" />
-                      </a>
+                      </Link>
 
-                      <a href="https://www.pinterest.com/" className='p-4'>
+                      <Link href="https://www.pinterest.com/" className='p-4'>
                       <FaPinterest size={11} color="#ffffff" />
-                      </a>
+                      </Link>
   
                    
                 </div> 
