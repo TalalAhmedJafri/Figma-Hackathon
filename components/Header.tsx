@@ -5,14 +5,14 @@ export default function Header () {
 
             <div className="flex justify-start items-center w-1/3 ">
               <h1 className="font-bold text-[24px] font-h"> 
-                 <a href="/">
+                 <Link href="/">
                     <span className="text-text">
                        Food
                     </span>
                    <span className="text-white">
                       tuck
                    </span>
-                 </a>
+                 </Link>
                </h1>
             </div>
             <div className="flex items-center w-1/3 text-white">
@@ -43,9 +43,9 @@ export default function Header () {
                 </nav>
             </div>
             <div className="flex space-x-4 w-1/3 justify-end items-center">
-                <a><img src="/images/icon1.png"/></a>
-                <a><img src="/images/User.png"/></a>
-                <a><img src="/images/icon2.png"/></a>
+                <Link><img src="/images/icon1.png"/></Link>
+                <Link><img src="/images/User.png"/></Link>
+                <Link><img src="/images/icon2.png"/></Link>
             </div>
 
         </div>
