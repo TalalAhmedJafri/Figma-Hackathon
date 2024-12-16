@@ -43,9 +43,9 @@ export default function Header () {
                 </nav>
             </div>
             <div className="flex space-x-4 w-1/3 justify-end items-center">
-                <Link><img src="/images/icon1.png"/></Link>
-                <Link><img src="/images/User.png"/></Link>
-                <Link><img src="/images/icon2.png"/></Link>
+                <a><img src="/images/icon1.png"/></a>
+                <a><img src="/images/User.png"/></a>
+                <a><img src="/images/icon2.png"/></a>
             </div>
 
         </div>
