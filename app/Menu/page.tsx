@@ -1,3 +1,4 @@
+import Link from "next/link";
 import Header from "@/components/Header"
 
 export default function Menu () {
@@ -6,7 +7,7 @@ export default function Menu () {
             <Header/>
             <div className="flex justify-center items-center flex-col py-20 bg-header-bg space-y-6">
                 <h1 className="text-[48px] font-bold text-white">Our Menu</h1>
-                <h2 className="text-white"><a href="/">Home</a> &gt; <span className="text-text">Menu</span></h2>
+                <h2 className="text-white"><Link href="/">Home</Link> &gt; <span className="text-text">Menu</span></h2>
             </div>
             <div className="flex px-[300] py-28">
                 <div>
