@@ -2,11 +2,11 @@
 
 export default function About () {
     return(
-        <div className=" flex pt-[100] px-[300]">
+        <div className=" flex md:pt-[100] md:px-[300] max-md:px-6">
             <div className="w-1/2 space-y-5">
                 <h1 className="text-[32px] text-text">About us</h1>
                 <h1 className="font-bold text-[48px] pr-36"><span className="text-text">We</span> Create the best foody product</h1>
-                <p className="text-[16px] pr-36">
+                <p className="text-[16px] md:pr-36">
                     Lorem ipsum dolor sit amet, consectetur
                      adipiscing elit. Quisque diam pellentesque 
                      bibendum non dui volutpat fringilla bibendum. 
@@ -40,11 +40,11 @@ export default function About () {
                 </p>
                 <button className='rounded-[30px] bg-text px-[60] py-4'>Read More</button>
             </div>
-            <div className="grid-cols-4 row-span-3 flex flex-col justify-center items-center space-y-4 w-/2">
-               <span>
+            <div className="flex flex-col justify-center items-center space-y-4 w-1/2">
+               <span >
                   <img src="/images/frame1.png"/>
                </span>
-               <span className="flex space-x-4">
+               <span className="flex space-x-4 max-md:size-4">
                   <img src="/images/frame2.png"/>
                   <img src="/images/frame3.png"/>
                </span>

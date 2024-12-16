@@ -18,7 +18,7 @@ export default function Footer () {
                 </span>
             </div>  
             <div className="border-b border-text"/> 
-            <div className="flex">
+            <div className="flex pl-10">
                 <span className="w-1/4 space-y-10">
                     <span className="space-y-10">
                     <h1 className="font-bold text-[24px]">
@@ -99,7 +99,7 @@ export default function Footer () {
 
                 </span>
             </div>
-            <div className="bg-footer flex py-[100] px-[300] items-center ">
+            <div className="bg-footer flex py-[50] px-[300] items-center ">
                 <span className='flex justify-startw-1/2'>
                   <p>Copyright © 2022 by Ayeman. All Rights Reserved.</p>
                 </span>

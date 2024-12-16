@@ -1,6 +1,6 @@
 export default function Clients () {
     return(
-        <div className="bg-back-bg pt-[100] px-[300]">
+        <div className="bg-back-bg pt-[100] px-[300] text-white">
 
            <div className="flex justify-center items-center space-x-40">
             <span className="flex flex-col justify-center items-center">

@@ -10,11 +10,10 @@ export default {
   theme: {
   	extend: {
 		backgroundImage: {
-			'header-bg': "url('/images/frame0.png')",
+			'header-bg': "url('/images/frame6.png')",
 			'back-bg': "url('/images/frame4.png')",
 			'leave': "url('/images/image8.png')",
 			'banner-bg': "url('/images/frame5.png')",
-
 		  },
   		colors: {
   			background: '#0D0D0DF2',
@@ -23,6 +22,8 @@ export default {
 			back: "#0D0D0DF2",
 			image: "/images/frame0.png",
 			footer: "#4F4F4F",
+			color1: "#4F4F4F",
+			color2: "#828282",
 
   			card: {
   				DEFAULT: 'hsl(var(--card))',
